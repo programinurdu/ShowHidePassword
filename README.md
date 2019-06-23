@@ -2,6 +2,7 @@
 
 JQuery Code:
 
+<code>
 $(document).ready(function () {
     $("#btnShow").mousedown(function () {
         $("#Password").attr("type", "text");
@@ -11,4 +12,4 @@ $(document).ready(function () {
         $("#Password").attr("type", "password");
     });
 });
-
+</code>
