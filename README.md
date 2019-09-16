@@ -1,6 +1,6 @@
 # ShowHidePassword
 
-
+<code>
 $(document).ready(function () {
 
     $("#btnShow").mousedown(function () {
@@ -11,3 +11,4 @@ $(document).ready(function () {
         $("#Password").attr("type", "password");
     });
 });
+</code>
